@@ -15,7 +15,7 @@ function AppLayout() {
       {!shouldHideSidebar && <Sidebar />}
 
       {/* Main Content */}
-      <div className="flex-grow p-4 overflow-auto">
+      <div className="flex-grow overflow-auto">
         <AppRoutes />
       </div>
     </div>
